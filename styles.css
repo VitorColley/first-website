@@ -1,0 +1,124 @@
+*{
+	margin: 0;
+}
+
+.menu{
+	height: 20px;
+	background-color: #212529;
+	text-align: right;
+	padding: 10px;
+	
+}
+
+.menu a{
+	text-decoration: none;
+	color: #adb5bd;
+	padding: 10px;
+}
+
+.profile{
+	padding: 25px;
+	height: 400px;
+	background-color: #f8f9fa;
+}
+img{
+	float: left;
+}
+#personalD{
+	background-color: #6c757d;
+	height: 400px;
+	padding: 25px;
+}
+#education{
+	background-color:#adb5bd;
+	height: 400px;
+	padding: 25px;
+}
+table{
+	width: 80%;
+}
+table, th, td{
+	border: 5px solid black;
+	border-collapse: collapse;
+	
+}
+#projects{
+	background-color:#ced4da;
+	height: 600px;
+	padding: 25px;
+}
+#projects img{
+	width: 543px;
+	height: 247px;
+	float: left;
+}
+/* mobile*/
+@media screen and (max-width: 480px){
+	*{
+	margin: 0;
+	}
+	div{
+		
+	}
+
+	.menu{
+		height: 20px;
+		background-color: #212529;
+		text-align: right;
+		padding: 10px;
+		
+	}
+
+	.menu a{
+		text-decoration: none;
+		color: #adb5bd;
+		padding: 10px;
+	}
+
+	.profile{
+		padding: 25px;
+		height: 400px;
+		background-color: #f8f9fa;
+	}
+	img{
+		float: left;
+		width: 50%;
+		height:50%;
+	}
+	#personalD{
+		background-color: #6c757d;
+		height: 400px;
+		padding: 25px;
+	}
+	#education{
+		background-color:#adb5bd;
+		height: 400px;
+		padding: 25px;
+	}
+	table{
+		width: 80%;
+	}
+	table, th, td{
+		border: 5px solid black;
+		border-collapse: collapse;
+		
+	}
+	#projects{
+		background-color:#ced4da;
+		height: 600px;
+		padding: 25px;
+	}
+	#projects img{
+		width: 272px;
+		height: 123px;
+		float: left;
+	}
+		
+	}
+/* tablet*/
+@media screen and (max-width: 768px) {
+	.pic{
+		width:50%;
+		height: 50%;
+	}
+}
